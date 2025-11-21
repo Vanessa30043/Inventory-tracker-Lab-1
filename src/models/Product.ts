@@ -14,6 +14,7 @@ export abstract class Product{
         displayDetails():string{
             return`SKU: ${this.sku}, Name: ${this.name}, 
             Price: $${this.price.toFixed(2)}`;
+           
         }   
      
 
