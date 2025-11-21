@@ -17,7 +17,9 @@ export abstract class Product{
         }   
      
 
-        abstract getPriceWithTax ():number ;
+        getPriceWithTax():number{
+            return this.price;
+        }
 
 
 }
